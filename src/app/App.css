@@ -40,6 +40,10 @@
   color: #888;
 }
 
+/* a {
+  --bg-----second: #e9ebec;
+} */
+
 .card {
   width: 630px;
 

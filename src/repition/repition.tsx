@@ -20,9 +20,6 @@ export const Repition = () => {
     setSumCount(0);
   };
 
-  console.log('Lint hello');
-  console.log('Mor logs');
-
   useEffect(() => {
     fetchProducts(query).then((res) => {
       setProducts(res.items);
