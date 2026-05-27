@@ -40,8 +40,14 @@
     "vite": "^5.4.10"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --cache --fix",
-    "*.--fix": "stylelint --fix",
-    "*.{js,css,md}": "prettier --write"
+    "src/**/*.{ts,tsx, js, jsx}": [
+      "eslint --cache --fix",
+      "prettier --write --ignore-unknown"
+    ],
+    "*.{md, json}": "prettier --write",
+    "src/**/*.{css, scss}": [
+      "stylelint --fix",
+      "prettier --write --ignore-unknown"
+    ]
   }
 }
