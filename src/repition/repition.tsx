@@ -28,6 +28,12 @@ export const Repition = () => {
 
   const filtered = products.filter((p) => p.price >= 0);
 
+  // const husky;
+  // const husky2;
+
+  // console.log('Husky');
+  // console.log('Husky1');
+
   return (
     <div>
       <div

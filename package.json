@@ -45,8 +45,8 @@
       "eslint --cache --fix",
       "prettier --write --ignore-unknown"
     ],
-    "*.{md, json}": "prettier --write",
-    "src/**/*.{css, scss}": [
+    "*.{md,json}": "prettier --write",
+    "src/**/*.{css,scss}": [
       "stylelint --fix",
       "prettier --write --ignore-unknown"
     ]
