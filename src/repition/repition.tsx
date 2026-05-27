@@ -21,6 +21,7 @@ export const Repition = () => {
   };
 
   console.log('Lint hello');
+  console.log('Mor logs');
 
   useEffect(() => {
     fetchProducts(query).then((res) => {
